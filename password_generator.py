@@ -12,7 +12,7 @@ class PasswordGeneratorApp:
 
         self.current_theme = "light"
         self.colors = {
-            "light_bg": "#f0f4f8",
+            "light_bg": "#f0f4f8", 
             "dark_bg": "#222831",
             "light_fg": "#222831",
             "dark_fg": "#eeeeee",
