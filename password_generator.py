@@ -54,7 +54,7 @@ class PasswordGeneratorApp:
         self.chk_upper = tk.Checkbutton(self.root, text="Include Uppercase", font=("Poppins", 13), variable=self.var_upper)
         self.chk_upper.place(x=50, y=210)
         self.chk_digits = tk.Checkbutton(self.root, text="Include Digits", font=("Poppins", 13), variable=self.var_digits)
-        self.chk_digits.place(x=50, y=250)
+        self.chk_digits.place(x=50, y=250) 
         self.chk_symbols = tk.Checkbutton(self.root, text="Include Symbols", font=("Poppins", 13), variable=self.var_symbols)
         self.chk_symbols.place(x=50, y=290)
 
